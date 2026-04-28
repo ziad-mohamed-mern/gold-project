@@ -6,10 +6,10 @@ const Footer = () => (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <div className="flex justify-center items-center gap-2 mb-6">
         <Diamond className="h-6 w-6 text-gold-DEFAULT" />
-        <span className="font-bold text-xl text-gray-900 dark:text-white">روائع المعادن</span>
+        <span className="font-bold text-xl text-gray-900 dark:text-white">مصنع النفيس للذهب</span>
       </div>
       <p className="text-gray-500 dark:text-gray-400">
-        © {new Date().getFullYear()} جميع الحقوق محفوظة لروائع المعادن.
+        © {new Date().getFullYear()} جميع الحقوق محفوظة لمصنع النفيس للذهب.
       </p>
     </div>
   </footer>

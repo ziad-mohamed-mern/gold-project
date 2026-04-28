@@ -17,7 +17,7 @@ const Navbar = ({ isDark, toggleTheme }) => (
             <Diamond className="h-8 w-8 text-gold-DEFAULT" />
           </motion.div>
           <span className="font-bold text-2xl tracking-wide bg-clip-text text-transparent bg-gradient-to-l from-gold-DEFAULT to-yellow-200">
-            روائع المعادن
+            مصنع النفيس للذهب
           </span>
         </Link>
         <div className="flex items-center gap-6">

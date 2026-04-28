@@ -28,11 +28,11 @@ const Hero = () => (
       variants={fadeIn}
       className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
     >
-      <h1 className="text-5xl md:text-7xl font-extrabold mb-8 leading-tight text-gray-900 dark:text-white">
-        اكتشف عالم <br />
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-DEFAULT via-yellow-300 to-gold-DEFAULT animate-pulse drop-shadow-lg">
-          الفخامة والأناقة
+      <h1 className="text-5xl md:text-8xl font-extrabold mb-8 leading-tight text-gray-900 dark:text-white">
+        <span className="block text-6xl md:text-9xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-gold-DEFAULT via-yellow-300 to-gold-DEFAULT drop-shadow-lg">
+          مصنع النفيس للذهب
         </span>
+        اكتشف عالم الفخامة والأناقة
       </h1>
       <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-700 dark:text-gray-300 mb-10 drop-shadow-md">
         نقدم لك أرقى التشكيلات من الذهب الخالص، الفضة اللامعة، والألماس النادر. استثمر في جمال لا يزول.
@@ -69,7 +69,7 @@ const About = () => (
           <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">من نحن</h2>
           <div className="h-1 w-24 bg-gradient-to-r from-transparent via-gold-DEFAULT to-transparent mb-8"></div>
           <p className="text-xl leading-relaxed text-gray-600 dark:text-gray-300 mb-6">
-            في "روائع المعادن"، نؤمن بأن المجوهرات ليست مجرد زينة، بل هي إرث يُتوارث عبر الأجيال.
+            في "مصنع النفيس للذهب"، نؤمن بأن المجوهرات ليست مجرد زينة، بل هي إرث يُتوارث عبر الأجيال.
             نحن نختار بعناية فائقة كل قطعة لنضمن لكِ أعلى معايير الجودة والنقاء، سواء كنتِ تبحثين عن بريق الألماس الساحر،
             أو لمعان الذهب الأصيل، أو أناقة الفضة الكلاسيكية.
           </p>
