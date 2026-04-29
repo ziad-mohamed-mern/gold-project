@@ -12,13 +12,13 @@ const Navbar = ({ isDark, toggleTheme }) => (
   >
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between items-center h-20">
-        <Link to="/" className="flex items-center gap-3">
-          <motion.div whileHover={{ rotate: 180 }} transition={{ duration: 0.3 }}>
-            <Diamond className="h-8 w-8 text-gold-DEFAULT" />
-          </motion.div>
-          <span className="font-bold text-2xl tracking-wide bg-clip-text text-transparent bg-gradient-to-l from-gold-DEFAULT to-yellow-200">
+        <Link to="/" className="flex items-center gap-4">
+          <span className="font-extrabold text-3xl md:text-4xl tracking-wider text-black dark:text-white drop-shadow-sm">
             مصنع النفيس للذهب
           </span>
+          <div>
+            <Diamond className="h-10 w-10 text-gold-DEFAULT drop-shadow-md" />
+          </div>
         </Link>
         <div className="flex items-center gap-6">
           <ul className="hidden md:flex gap-8 font-semibold text-gray-700 dark:text-gray-300">
