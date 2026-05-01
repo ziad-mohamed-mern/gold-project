@@ -5,16 +5,16 @@ import { motion } from 'framer-motion';
 import logo from '../assets/logo.png';
 
 const Navbar = ({ isDark, toggleTheme }) => (
-  <motion.nav 
+  <motion.nav
     initial={{ y: -100 }}
     animate={{ y: 0 }}
     transition={{ duration: 0.5 }}
     className="fixed w-full z-50 transition-colors duration-300 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800"
   >
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="flex justify-between items-center h-20">
+    <div className="max-w-7xl h-32 mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="flex justify-between items-center h-32">
         <Link to="/" className="flex items-center gap-4">
-          <img src={logo} alt="مصنع النفيس" className="h-16 w-auto" />
+          <img src={logo} alt="مصنع النفيس" className="h-28 w-auto object-contain" />
           <span className="font-extrabold text-2xl md:text-3xl tracking-wider text-black dark:text-white drop-shadow-sm">
             مصنع النفيس للذهب
           </span>
